@@ -4,21 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Myweb</title>
-</head>
-<a href="./index.html">Index</a>
+</head><style>
+    body{
+        background: lightslategray;
+    }
+    fieldset{
+        border-radius: 10px;
+        border-color: blue;
+    }
+
+</style>
+<a href="./index.html">Home</a>
     <a href="./Skills.html">Skills</a>
     <a href="./Project.html">Project</a>
-<body><h1>Project</h1>
+   <h1>Project</h1>
     
     
-    <p>
-        A small project is asign to us to create a small website and add pages that is home ,skills and project in that website.
-    </p>
-    <img src="./images/istockphoto-1409845535-1024x1024.jpg" alt="Pic of project" width="400" height="400">
-    <h3>You can ask something like.....</h3>
-    <h4>If you're interested in enrolling in an online course, please fill out the form bellow.</h4>
+    <ul>
+        <li>A small project is asign to us to create a small website and add pages that is home ,skills and project in that website.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi praesentium impedit cupiditate architecto porro consequatur accusantium suscipit, earum cumque vel necessitatibus aspernatur aperiam est dolore blanditiis eum. Tenetur, atque.</li>
+</ul>
+    <img src="./images/istockphoto-1409845535-1024x1024.jpg" alt="Pic of project" width="200" height="200">
     <form>
-        Enter your First name: <input type="text" name="username" required maxlength="20"/>
+        <fieldset>
+            <legend><h3>Any Feedback</h3></legend>
+        Enter your First name: <input type="text" name="username" required maxlength="20"/><br><br><br>
         Enter your Last name: <input type="text" name="username" required maxlength="20"/><br><br><br>
         Enter your Email address: <input type="Email" required/><br><br><br>
         Enter your Phone Number: 
@@ -34,28 +44,10 @@
             <option value="+81">Japan</option>
             </select>
             <input type="number" required/><br><br><br>
-            <p>Select Course: 
-            <select name="Course" size="3" required
- multiple="multiple">
- <option value="Graphic Designing" selected="course">
- Graphic Designing</option>
- <option value="Vedio Animation">Vedio Animation</option>
- <option value="Mobile app and web development" 
- selected="selected">Mobile app and web development</option>
- <option value="Python">python</option>
-</select><br><br>
-          <p> Select your Gender <br>
-            <input type="radio" name="Gender" value="Male" 
- checked="checked" required /> Male <input type="radio" name="Gender" value="Female" required/>Female</p>
- <br>
- <br>
- <p> Do you have a Laptop? <br>
-    <input type="checkbox" name="Laptop?" value="yes" 
-checked="checked" required /> yes <input type="checkbox" name="Laptop?" value="no" required/>no</p><br><br>
 
- <input type="submit" name="submit" 
- value="SUBMIT" /> 
- 
+ <input type="imagesubmit" name="imagesubmit" 
+ value="OK" /></fieldset> 
+ </form>
  
 
     </form>
