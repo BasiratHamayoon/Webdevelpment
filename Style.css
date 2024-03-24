@@ -1,0 +1,22 @@
+
+    body{
+        background-color: rgb(127, 197, 202)
+        
+    }
+    #ss{
+        font-family: cursive;
+    }
+    h2,h3{
+        background-color:  rgb(182, 228, 220);
+    }
+    table
+    {
+        border-collapse: collapse;
+    }
+    tr,th,td{
+        border: 4px solid beige;
+    };
+    fieldset{
+        border-radius: 10px;
+        border-color: beige;
+    };
